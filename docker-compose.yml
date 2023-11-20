@@ -1,0 +1,10 @@
+version: '3'
+  
+services:
+  luizInterview:
+    image: luiz_image
+    volumes:
+      - /tmp/interview/:/root/
+    container_name: "luizContainer"
+    restart: unless-stopped
+
