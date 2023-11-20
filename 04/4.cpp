@@ -12,8 +12,8 @@ int ConcatRemove(std::string base, std::string objetivo, int movimentos){
 int main (int argc, char *argv[]) {
   std::string base, objetivo;
   int mov;
-  std::cin >> base;
-  std::cin >> objetivo;
+  std::getline(std::cin, base);
+  std::getline(std::cin, objetivo);
   std::cin >> mov;
   std::cout << (mov >= ConcatRemove(base, objetivo, mov) ? "yes" : "no") << std::endl;
   return 0;
