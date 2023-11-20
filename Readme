@@ -1,0 +1,51 @@
+this project is for a interview
+to run it will need g++ and mysql at least, however i make a dockerfile and compose where you ewerything works out of the box
+how validade the code (and some notes):
+
+-- question 03:
+g++ -o main 3.cpp && ./main
+
+-- question 04: 
+g++ -o main 4.cpp && ./main
+<input s> 
+<input t>
+<input k>
+example:
+g++ -o main 4.cpp && ./main
+blablablabla
+blablabcde
+8
+
+-- question 05:
+g++ -o main 4.cpp && ./main
+
+-- question 06:
+mysql < 06/create.sql
+#it will create a test table with test content for the query
+mysql < 06/query.sql
+#it will return the output of the answer from the question, you can see the query with cat 06/query.sql
+
+-- question 08:
+mysql < 08/create.sql
+#it will create a test table with test content for the query
+mysql < 08/queryall.sql
+#it will show all names indistinct, 08/query.sql actualy the answer
+mysql < 08/query.sql
+#it will show all distinct names from both, dogs and cats tables
+
+-- question 9:
+#it actually is pseudocode so i don't know how to test
+
+-- question 10:
+g++ -o main 10.cpp && ./main
+<input string>
+- example
+luiz
+#it will return 4
+
+-- question 11:
+g++ -o main 11.cpp && ./main
+<input string>
+- example
+luiz
+#it will return ziul
